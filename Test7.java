@@ -1,5 +1,6 @@
 public class Test7  {
 	public static void main(String[] argc) {
+		// this is comments
 		double a = Math.random();
 		double b = Math.random();
 		System.out.println(Math.sqrt(a*a + b*b));
