@@ -40,7 +40,6 @@ class Compare {
 	}
 
 	public void bufferedReadFile() {
-		FileInputStream fis = null;
 		BufferedInputStream bis = null;
 		try {
 			fis = new FileInputStream(fileName);
@@ -48,6 +47,7 @@ class Compare {
 			byte[] arr = new byte[1024];
 			while(bis.read(arr) != -1) {
 				// null
+				// this two null
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
